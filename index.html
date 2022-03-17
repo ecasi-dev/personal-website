@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/navbar.min.css" />
+    <link rel="stylesheet" href="css/hero-section.min.css" />
+    <link rel="stylesheet" href="css/hero-aside.min.css" />
+    <link rel="stylesheet" href="css/sortbar.min.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar-container">
+      <div class="navbar">
+        <h2>Emiliano Casi Jr</h2>
+        <nav>
+          <ul>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Articles</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="search-container">
+        <form role="search" id="form">
+          <input
+            type="search"
+            id="query"
+            name="q"
+            placeholder="Search..."
+            aria-label="Search through site content"
+          />
+          <button>O-</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="landing">
+      <div class="heroSection">
+        <h1>Remote controlled elevator using Arduino</h1>
+        <p class="subtitle">
+          March 20, 2020 - Engineering, Programming, Design
+        </p>
+        <div class="scroll-container">
+          <div class="image-container">
+            <img
+              src="https://i2.lensdump.com/i/rP53Kz.md.webp"
+              alt="rP53Kz.webp"
+              class="hero-image"
+            />
+          </div>
+        </div>
+        <div class="hero-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit duis
+          scelerisque convallis purus dolor lectus parturient sit nisl. Elit
+          quam tincidunt amet suspendisse faucibus adipiscing ac gravida
+          sagittis. Sit lacinia turpis lacinia in iaculis ultrices elementum.
+          Amet tortor pellentesque tellus enim, lacus, eu luctus feugiat.
+        </div>
+      </div>
+      <div class="aside">
+        <div class="aside-container">
+          <div class="aside-content">
+            <h3>Let’s Make Your Website Look Awesome!</h3>
+            <p>Im a Web Developer transitioning from mechanical engineering.</p>
+            <p>
+              This is a website where I share my projects and my knowledge, and
+              hopefully help someone else that needs it.
+            </p>
+            <p>
+              I'd like to show the world my skills, but to also learn from the
+              best.
+            </p>
+            <button>Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SORT BAR -->
+    <div class="sortbar-container">
+      <div class="sortbar-content">
+        <div class="sort-container">
+          <label for="sort">Sort by:</label>
+          <select name="sort" id="sort">
+            <option value="volvo">Ascending Date</option>
+            <option value="saab">Decending Date</option>
+            <option value="mercedes">Most Popular</option>
+          </select>
+        </div>
+        <div class="filter-container">
+          <label for="filter">Filter:</label>
+          <select name="filter" id="filter">
+            <option value="volvo">Web Development</option>
+            <option value="saab">Engineering</option>
+            <option value="mercedes">Gaming</option>
+            <option value="audi">Others</option>
+          </select>
+        </div>
+        <div class="search-container">
+          <form role="search" id="form">
+            <input
+              type="search"
+              id="query"
+              name="q"
+              placeholder="Search..."
+              aria-label="Search through site content"
+            />
+            <button>O-</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style>
+</html>
